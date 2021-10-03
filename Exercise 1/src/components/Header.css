@@ -1,0 +1,41 @@
+.header {
+    background-color: #00194C;
+    height: 68px;
+    align-items: center;
+}
+.headerContainer {
+    margin: auto;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+.headerLogo {
+    height: 24px;
+}
+.headerContainer button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: none;
+}
+button > img,
+button > span {
+  vertical-align: middle;
+}
+.tilaaBtn {
+    font-weight: 600 !important;
+    color: #00194C !important;
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.profile, .search, .menu {
+    height: 24px;
+}
